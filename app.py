@@ -17,6 +17,8 @@ import matplotlib.colors as mcolors
 import folium
 from streamlit_folium import st_folium
 
+plt.rcParams["text.parse_math"] = False
+
 # ----------------------------------------------------------------------
 # CONFIGURACAO
 # ----------------------------------------------------------------------
